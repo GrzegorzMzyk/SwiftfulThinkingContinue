@@ -12,7 +12,7 @@ struct MaskBootcamp: View {
     @State var rating: Int = 0
     
     var body: some View {
-        ZStack{
+        ZStack {
             starsView.overlay(overlayView.mask(starsView))
         }
     }
