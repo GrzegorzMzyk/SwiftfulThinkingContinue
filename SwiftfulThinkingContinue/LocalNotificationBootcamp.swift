@@ -7,6 +7,7 @@
 
 import SwiftUI
 import UserNotifications
+import CoreLocation
 
 class NotificationManager {
     
@@ -30,21 +31,38 @@ class NotificationManager {
         content.badge = 0
         
         //trigger:
+        
         // time
 //        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5.0, repeats: false)
-        // calendar
-        var dateComponents = DateComponents()
-        dateComponents.hour = 14
-        dateComponents.minute = 03
-        dateComponents.weekday = 2
-        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
-       //location
         
+        // calendar
+//        var dateComponents = DateComponents()
+//        dateComponents.hour = 14
+//        dateComponents.minute = 03
+//        dateComponents.weekday = 2
+//        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        
+       //location
+        let cordinates = CLLocationCoordinate2D(
+            latitude: 40.00,
+            longitude: 50.00)
+        
+        let region = CLCircularRegion(
+            center: cordinates,
+            radius: 100,
+            identifier: UUID().uuidString)
+        region.notifyOnEntry = true
+        region.notifyOnExit = false
+        let trigger = UNLocationNotificationTrigger(region: region, repeats: true)
         
         let request = UNNotificationRequest(identifier: UUID().uuidString,
                                             content: content,
                                             trigger: trigger)
         UNUserNotificationCenter.current().add(request)
+    }
+    func cancelNotification(){
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
     }
 }
 
@@ -57,6 +75,9 @@ struct LocalNotificationBootcamp: View {
             }
             Button("Schedule notification") {
                 NotificationManager.instance.scheduleNotification()
+            }
+            Button("Cancel notification") {
+                NotificationManager.instance.cancelNotification()
             }
         }
     }
