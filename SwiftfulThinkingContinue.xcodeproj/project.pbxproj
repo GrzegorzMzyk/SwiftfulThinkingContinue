@@ -19,6 +19,8 @@
 		194319192C7735DF0012D8FA /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194319182C7735DF0012D8FA /* LocalNotificationBootcamp.swift */; };
 		1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943191A2C7775570012D8FA /* HashableBootcamp.swift */; };
 		1943191D2C777A9A0012D8FA /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */; };
+		19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */; };
+		19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */; };
 		19E879E82C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879E72C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift */; };
 		19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879E92C6BC23E000CDA4A /* ContentView.swift */; };
 		19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879EB2C6BC23E000CDA4A /* Item.swift */; };
@@ -42,6 +44,8 @@
 		194319182C7735DF0012D8FA /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 		1943191A2C7775570012D8FA /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
+		19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
+		19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		19E879E42C6BC23E000CDA4A /* SwiftfulThinkingContinue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E879E72C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinueApp.swift; sourceTree = "<group>"; };
 		19E879E92C6BC23E000CDA4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				194319182C7735DF0012D8FA /* LocalNotificationBootcamp.swift */,
 				1943191A2C7775570012D8FA /* HashableBootcamp.swift */,
 				1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */,
+				19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */,
+				19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */,
 				194319112C772DB30012D8FA /* Sounds */,
 				19E879EB2C6BC23E000CDA4A /* Item.swift */,
 				19E879ED2C6BC240000CDA4A /* Assets.xcassets */,
@@ -195,9 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */,
 				1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */,
 				1924A6202C75E9DE0005C216 /* DragGestureBootcamp2.swift in Sources */,
 				1924A6282C7647670005C216 /* MaskBootcamp.swift in Sources */,
+				19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */,
 				19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */,
 				19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */,
 				1924A6222C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift in Sources */,
@@ -416,6 +424,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = /Users/grmzy/Documents/GitHub/SwiftfulThinkingContinue/SwiftfulThinkingContinue/FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 19E879DC2C6BC23E000CDA4A /* Project object */;
 }
