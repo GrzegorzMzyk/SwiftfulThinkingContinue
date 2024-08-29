@@ -7,12 +7,12 @@
 
 import SwiftUI
 import CoreData
-
-// MVVM ->
-// View -      UI
-// Model -     data point
-// ViewModel - manages the data for a view
-
+/*
+MVVM ->
+View -      UI
+Model -     data point
+ViewModel - manages the data for a view
+*/
 class CoreDataViewModel: ObservableObject {
     
     // loading CoreData
