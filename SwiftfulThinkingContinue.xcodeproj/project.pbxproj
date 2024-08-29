@@ -11,6 +11,16 @@
 		1924A6222C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6212C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift */; };
 		1924A6242C760D690005C216 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6232C760D690005C216 /* GeometryReaderBootcamp.swift */; };
 		1924A6262C763B1E0005C216 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6252C763B1E0005C216 /* MultipleSheetsBootcamp.swift */; };
+		1924A6282C7647670005C216 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6272C7647670005C216 /* MaskBootcamp.swift */; };
+		194319102C772A050012D8FA /* SoundBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943190F2C772A050012D8FA /* SoundBootcamp.swift */; };
+		194319142C772DEF0012D8FA /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 194319122C772DEF0012D8FA /* tada.mp3 */; };
+		194319152C772DEF0012D8FA /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 194319132C772DEF0012D8FA /* badum.mp3 */; };
+		194319172C7730D10012D8FA /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194319162C7730D10012D8FA /* HapticsBootcamp.swift */; };
+		194319192C7735DF0012D8FA /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194319182C7735DF0012D8FA /* LocalNotificationBootcamp.swift */; };
+		1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943191A2C7775570012D8FA /* HashableBootcamp.swift */; };
+		1943191D2C777A9A0012D8FA /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */; };
+		19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */; };
+		19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */; };
 		19E879E82C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879E72C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift */; };
 		19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879E92C6BC23E000CDA4A /* ContentView.swift */; };
 		19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879EB2C6BC23E000CDA4A /* Item.swift */; };
@@ -26,6 +36,16 @@
 		1924A6212C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		1924A6232C760D690005C216 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		1924A6252C763B1E0005C216 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		1924A6272C7647670005C216 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
+		1943190F2C772A050012D8FA /* SoundBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBootcamp.swift; sourceTree = "<group>"; };
+		194319122C772DEF0012D8FA /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		194319132C772DEF0012D8FA /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		194319162C7730D10012D8FA /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		194319182C7735DF0012D8FA /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		1943191A2C7775570012D8FA /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
+		19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
+		19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		19E879E42C6BC23E000CDA4A /* SwiftfulThinkingContinue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E879E72C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinueApp.swift; sourceTree = "<group>"; };
 		19E879E92C6BC23E000CDA4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194319112C772DB30012D8FA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				194319132C772DEF0012D8FA /* badum.mp3 */,
+				194319122C772DEF0012D8FA /* tada.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		19E879DB2C6BC23E000CDA4A = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +105,15 @@
 				1924A6212C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift */,
 				1924A6232C760D690005C216 /* GeometryReaderBootcamp.swift */,
 				1924A6252C763B1E0005C216 /* MultipleSheetsBootcamp.swift */,
+				1924A6272C7647670005C216 /* MaskBootcamp.swift */,
+				1943190F2C772A050012D8FA /* SoundBootcamp.swift */,
+				194319162C7730D10012D8FA /* HapticsBootcamp.swift */,
+				194319182C7735DF0012D8FA /* LocalNotificationBootcamp.swift */,
+				1943191A2C7775570012D8FA /* HashableBootcamp.swift */,
+				1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */,
+				19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */,
+				19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */,
+				194319112C772DB30012D8FA /* Sounds */,
 				19E879EB2C6BC23E000CDA4A /* Item.swift */,
 				19E879ED2C6BC240000CDA4A /* Assets.xcassets */,
 				19E879EF2C6BC240000CDA4A /* Preview Content */,
@@ -149,8 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194319152C772DEF0012D8FA /* badum.mp3 in Resources */,
 				19E879F12C6BC240000CDA4A /* Preview Assets.xcassets in Resources */,
 				19E879EE2C6BC240000CDA4A /* Assets.xcassets in Resources */,
+				194319142C772DEF0012D8FA /* tada.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +201,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */,
+				1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */,
 				1924A6202C75E9DE0005C216 /* DragGestureBootcamp2.swift in Sources */,
+				1924A6282C7647670005C216 /* MaskBootcamp.swift in Sources */,
+				19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */,
 				19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */,
 				19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */,
 				1924A6222C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift in Sources */,
+				1943191D2C777A9A0012D8FA /* ArraysBootcamp.swift in Sources */,
+				194319192C7735DF0012D8FA /* LocalNotificationBootcamp.swift in Sources */,
 				1924A6262C763B1E0005C216 /* MultipleSheetsBootcamp.swift in Sources */,
 				19E879FC2C6CDDDA000CDA4A /* RotationGesture.swift in Sources */,
 				19E879F82C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift in Sources */,
+				194319102C772A050012D8FA /* SoundBootcamp.swift in Sources */,
 				1924A6242C760D690005C216 /* GeometryReaderBootcamp.swift in Sources */,
+				194319172C7730D10012D8FA /* HapticsBootcamp.swift in Sources */,
 				19E879E82C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift in Sources */,
 				19E879FE2C748F8F000CDA4A /* DragGesture.swift in Sources */,
 			);
@@ -376,6 +424,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = /Users/grmzy/Documents/GitHub/SwiftfulThinkingContinue/SwiftfulThinkingContinue/FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 19E879DC2C6BC23E000CDA4A /* Project object */;
 }
