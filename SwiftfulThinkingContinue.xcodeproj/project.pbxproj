@@ -29,6 +29,7 @@
 		19E879F82C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879F72C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift */; };
 		19E879FC2C6CDDDA000CDA4A /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879FB2C6CDDDA000CDA4A /* RotationGesture.swift */; };
 		19E879FE2C748F8F000CDA4A /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879FD2C748F8F000CDA4A /* DragGesture.swift */; };
+		19F79BD92C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		19E879F72C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		19E879FB2C6CDDDA000CDA4A /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
 		19E879FD2C748F8F000CDA4A /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				1943191A2C7775570012D8FA /* HashableBootcamp.swift */,
 				1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */,
 				19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */,
+				19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */,
 				19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */,
 				194319112C772DB30012D8FA /* Sounds */,
 				19E879EB2C6BC23E000CDA4A /* Item.swift */,
@@ -217,6 +220,7 @@
 				194319102C772A050012D8FA /* SoundBootcamp.swift in Sources */,
 				1924A6242C760D690005C216 /* GeometryReaderBootcamp.swift in Sources */,
 				194319172C7730D10012D8FA /* HapticsBootcamp.swift in Sources */,
+				19F79BD92C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift in Sources */,
 				19E879E82C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift in Sources */,
 				19E879FE2C748F8F000CDA4A /* DragGesture.swift in Sources */,
 			);
