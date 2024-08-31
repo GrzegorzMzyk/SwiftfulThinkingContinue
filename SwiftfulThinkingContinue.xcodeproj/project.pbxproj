@@ -30,6 +30,7 @@
 		19E879FC2C6CDDDA000CDA4A /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879FB2C6CDDDA000CDA4A /* RotationGesture.swift */; };
 		19E879FE2C748F8F000CDA4A /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879FD2C748F8F000CDA4A /* DragGesture.swift */; };
 		19F79BD92C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */; };
+		19F79BDC2C83220A000516EE /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19F79BDA2C83220A000516EE /* CoreDataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		19E879FB2C6CDDDA000CDA4A /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
 		19E879FD2C748F8F000CDA4A /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
 		19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
+		19F79BDB2C83220A000516EE /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */,
 				19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */,
 				19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */,
+				19F79BDA2C83220A000516EE /* CoreDataContainer.xcdatamodeld */,
 				19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */,
 				194319112C772DB30012D8FA /* Sounds */,
 				19E879EB2C6BC23E000CDA4A /* Item.swift */,
@@ -212,6 +215,7 @@
 				19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */,
 				19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */,
 				1924A6222C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift in Sources */,
+				19F79BDC2C83220A000516EE /* CoreDataContainer.xcdatamodeld in Sources */,
 				1943191D2C777A9A0012D8FA /* ArraysBootcamp.swift in Sources */,
 				194319192C7735DF0012D8FA /* LocalNotificationBootcamp.swift in Sources */,
 				1924A6262C763B1E0005C216 /* MultipleSheetsBootcamp.swift in Sources */,
@@ -438,6 +442,17 @@
 			currentVersion = 19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */;
 			name = FruitsContainer.xcdatamodeld;
 			path = /Users/grmzy/Documents/GitHub/SwiftfulThinkingContinue/SwiftfulThinkingContinue/FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		19F79BDA2C83220A000516EE /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19F79BDB2C83220A000516EE /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 19F79BDB2C83220A000516EE /* CoreDataContainer.xcdatamodel */;
+			name = CoreDataContainer.xcdatamodeld;
+			path = /Users/grmzy/Documents/GitHub/SwiftfulThinkingContinue/SwiftfulThinkingContinue/CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
