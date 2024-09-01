@@ -102,9 +102,9 @@ class CoreDataRelationshipsViewModel: ObservableObject {
     func addDepartment() {
         let newDepartment = DepartmentEntity(context: manager.context)
         newDepartment.name = "Engineering"
-//        newDepartment.businesses = [businesses[0]]
+        newDepartment.businesses = [businesses[0]]
        // newDepartment.employees = [employees[1]]
-        newDepartment.addToEmployees(employees[0])
+//        newDepartment.addToEmployees(employees[0])
         save()
     }
     
