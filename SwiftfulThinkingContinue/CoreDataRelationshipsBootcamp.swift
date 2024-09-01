@@ -101,23 +101,26 @@ class CoreDataRelationshipsViewModel: ObservableObject {
     
     func addDepartment() {
         let newDepartment = DepartmentEntity(context: manager.context)
-        newDepartment.name = "Marketing"
-        newDepartment.businesses = [businesses[0]]
+        newDepartment.name = "Engineering"
+//        newDepartment.businesses = [businesses[0]]
+       // newDepartment.employees = [employees[1]]
+        newDepartment.addToEmployees(employees[0])
         save()
     }
     
     func addEmployee() {
         let newEmployee = EmployeeEntity(context: manager.context)
-        newEmployee.age = 25
+        newEmployee.age = 99
         newEmployee.dateJoined = Date()
-        newEmployee.name = "John"
+        newEmployee.name = "Emily"
         
-        newEmployee.business = businesses[0]
-        newEmployee.department = departments[0]
+//        newEmployee.business = businesses[0]
+//        newEmployee.department = departments[0]
         save()
     }
     
     func save() {
+        
         businesses.removeAll()
         departments.removeAll()
         employees.removeAll()
@@ -128,6 +131,7 @@ class CoreDataRelationshipsViewModel: ObservableObject {
             self.getDepartments()
             self.getEmployees()
         }
+     
     }
 }
 
@@ -141,7 +145,7 @@ struct CoreDataRelationshipsBootcamp: View {
             ScrollView {
                 VStack(spacing: 20){
                     Button(action: {
-                        vm.addEmployee()
+                        vm.addDepartment()
                     }, label: {
                         Text("Perform action")
                             .foregroundStyle(Color.white)
@@ -255,6 +259,9 @@ struct EmployeeView: View {
         VStack(alignment:.leading, spacing: 20){
             Text("Name: \(entity.name ?? "" )")
                 .bold()
+            Text("Age: \(entity.age)")
+            Text("Date joined: \(entity.dateJoined ?? Date())")
+            
             Text("Business:")
                 .bold()
             Text(entity.business?.name ?? "")
