@@ -79,7 +79,6 @@ class CoreDataRelationshipsViewModel: ObservableObject {
         }
         
     }
-    
     func addBusiness() {
         let newBusiness = BusinessEntity(context: manager.context)
         newBusiness.name = "Apple"
@@ -98,7 +97,6 @@ class CoreDataRelationshipsViewModel: ObservableObject {
         
         save()
     }
-    
     func addDepartment() {
         let newDepartment = DepartmentEntity(context: manager.context)
         newDepartment.name = "Engineering"
@@ -107,7 +105,6 @@ class CoreDataRelationshipsViewModel: ObservableObject {
 //        newDepartment.addToEmployees(employees[0])
         save()
     }
-    
     func addEmployee() {
         let newEmployee = EmployeeEntity(context: manager.context)
         newEmployee.age = 99
@@ -118,7 +115,6 @@ class CoreDataRelationshipsViewModel: ObservableObject {
 //        newEmployee.department = departments[0]
         save()
     }
-    
     func save() {
         
         businesses.removeAll()
