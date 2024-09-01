@@ -29,6 +29,7 @@
 		19E879F82C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879F72C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift */; };
 		19E879FC2C6CDDDA000CDA4A /* RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879FB2C6CDDDA000CDA4A /* RotationGesture.swift */; };
 		19E879FE2C748F8F000CDA4A /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879FD2C748F8F000CDA4A /* DragGesture.swift */; };
+		19F72B632C847CC100AD9E95 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F72B622C847CC100AD9E95 /* BackgroundThreadBootcamp.swift */; };
 		19F79BD92C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */; };
 		19F79BDC2C83220A000516EE /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19F79BDA2C83220A000516EE /* CoreDataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		19E879F72C6BC2BA000CDA4A /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		19E879FB2C6CDDDA000CDA4A /* RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesture.swift; sourceTree = "<group>"; };
 		19E879FD2C748F8F000CDA4A /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		19F72B622C847CC100AD9E95 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 		19F79BDB2C83220A000516EE /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				1943191C2C777A9A0012D8FA /* ArraysBootcamp.swift */,
 				19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */,
 				19F79BD82C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift */,
+				19F72B622C847CC100AD9E95 /* BackgroundThreadBootcamp.swift */,
 				19F79BDA2C83220A000516EE /* CoreDataContainer.xcdatamodeld */,
 				19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */,
 				194319112C772DB30012D8FA /* Sounds */,
@@ -210,6 +213,7 @@
 				19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */,
 				1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */,
 				1924A6202C75E9DE0005C216 /* DragGestureBootcamp2.swift in Sources */,
+				19F72B632C847CC100AD9E95 /* BackgroundThreadBootcamp.swift in Sources */,
 				1924A6282C7647670005C216 /* MaskBootcamp.swift in Sources */,
 				19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */,
 				19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */,
