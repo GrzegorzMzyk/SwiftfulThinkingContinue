@@ -25,7 +25,7 @@ struct SwiftfulThinkingContinueApp: App {
 
     var body: some Scene {
         WindowGroup {
-            EscapingBootcamp()
+            CodableBootcamp()
         }
         .modelContainer(sharedModelContainer)
     }
