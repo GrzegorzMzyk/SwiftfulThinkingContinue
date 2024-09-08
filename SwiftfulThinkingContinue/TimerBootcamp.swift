@@ -23,9 +23,23 @@ struct TimerBootcamp: View {
 */
     
     //Countdown
-    
+    /*
     @State var count: Int = 10
     @State var finishedText: String? = nil
+*/
+    
+    // Countdown to date
+    
+    @State var timeRemaining: String = ""
+    let futureDate: Date = Calendar.current.date(byAdding: .hour, value: 1, to: Date()) ?? Date()
+    
+    func updateTimeRemaining() {
+        let remaining = Calendar.current.dateComponents([.minute,.second], from: Date(), to: futureDate)
+        let minute = remaining.minute ?? 0
+        let second = remaining.second ?? 0
+        timeRemaining = "\(minute) minutes and \(second) seconds"
+    }
+    
     
     var body: some View {
         ZStack {
@@ -35,7 +49,7 @@ struct TimerBootcamp: View {
                          endRadius: 500)
                 .ignoresSafeArea()
             
-            Text(finishedText ?? "\(count)")
+            Text(timeRemaining)
                 .font(.system(size: 100, weight: .semibold, design: .rounded))
                 .foregroundStyle(Color.white)
                 .lineLimit(1)
@@ -43,11 +57,7 @@ struct TimerBootcamp: View {
         }
         // przyjmujemy wartość
         .onReceive(timer, perform: { _ in
-            if count <= 1 {
-                finishedText = "WOW!"
-            } else {
-                count -= 1
-            }
+            updateTimeRemaining()
         })
     }
 }
