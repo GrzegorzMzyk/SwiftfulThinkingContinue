@@ -7,15 +7,17 @@
 
 import SwiftUI
 
-struct PostModel :Identifiable, Codable {
-    let userId: Int
-    let id: Int
-    let title: String
-    let body: String
-}
+//struct PostModel :Identifiable, Codable {
+//    let userId: Int
+//    let id: Int
+//    let title: String
+//    let body: String
+//}
 
 class DownloadWithEscapingViewModel: ObservableObject {
+    
     @Published var posts: [PostModel] = []
+    
     init() {
         getPosts()
     }
@@ -34,7 +36,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
         }
     }
     // generic Dafault function to download data
-    
+    // checking data
     func downloadData(fromURL url: URL,completionHandler: @escaping(_ data: Data?) -> ())  {
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard
