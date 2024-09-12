@@ -9,20 +9,56 @@ import SwiftUI
 
 class LocalFileManager {
     static let instance = LocalFileManager()
-    
+    let folderName: String = "MyApp_Images"
+    init() {
+        createFolderIfNeeded()
+    }
+    func createFolderIfNeeded() {
+        guard
+            let path = FileManager
+                .default
+                .urls(for: .cachesDirectory, in: .userDomainMask)
+                .first?
+                .appending(path: folderName )
+                .path else {
+            return
+        }
+        if !FileManager.default.fileExists(atPath: path) {
+            do {
+                try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true)
+                print("success creating folder")
+            } catch let error {
+                print("error creating folder:\(error)")
+            }
+        }
+    }
+    func deleteFolder() {
+        guard
+            let path = FileManager
+                .default
+                .urls(for: .cachesDirectory, in: .userDomainMask)
+                .first?
+                .appending(path: folderName )
+                .path else {
+            return
+        }
+        do {
+            try FileManager.default.removeItem(atPath: path)
+            print("Success deleting folder")
+        } catch let error {
+            print("Error deleting folder \(error)")
+        }
+    }
     func saveImage(image: UIImage, name: String) -> String {
         guard
             let data = image.jpegData(compressionQuality: 1.0),
             let path = gethPathForImage(name: name) else {
            return "Error getting data"
         }
-//      //  let directory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-//        let directory = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first
-//      //  let directory3 = FileManager.default.temporaryDirectory
-//        let path = directory?.appendingPathComponent("\(name).jpeg")
     
         do {
          try   data.write(to: path)
+            print(path)
             return "Succes saving"
         } catch let error {
             return "error saving: \(error)"
@@ -60,6 +96,7 @@ class LocalFileManager {
                 .default
                 .urls(for: .cachesDirectory, in: .userDomainMask)
                 .first?
+                .appendingPathComponent(folderName)
                 .appendingPathComponent("\(name).jpeg") else {
             print("Error getting path")
             return nil
@@ -95,6 +132,7 @@ class FileManagerViewModel: ObservableObject {
     
     func deleteImage() {
         infoMessage = manager.deleteImage(name: imageName)
+        manager.deleteFolder()
     }
 }
 
