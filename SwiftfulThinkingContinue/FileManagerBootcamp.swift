@@ -12,7 +12,8 @@ class LocalFileManager {
     
     func saveImage(image: UIImage, name: String) {
         guard
-            let data = image.jpegData(compressionQuality: 1.0) else {
+            let data = image.jpegData(compressionQuality: 1.0),
+            let path = gethPathForImage(name: name) else {
             print("Error getting data")
             return
         }
@@ -21,16 +22,6 @@ class LocalFileManager {
 //      //  let directory3 = FileManager.default.temporaryDirectory
 //        let path = directory?.appendingPathComponent("\(name).jpeg")
     
-        guard
-            let path = FileManager
-                .default
-                .urls(for: .cachesDirectory, in: .userDomainMask)
-                .first?
-                .appendingPathComponent("\(name).jpeg") else {
-            print("Error getting path")
-            return
-        }
-        
         do {
          try   data.write(to: path)
             print("Succes saving")
@@ -38,6 +29,27 @@ class LocalFileManager {
             print ("error saving: \(error)")
         }
         
+    }
+    func getImage(name: String) -> UIImage? {
+        guard
+            let path = gethPathForImage(name: name)?.path,
+                FileManager.default.fileExists(atPath: path) else {
+            print("Error getting path")
+            return nil
+        }
+        return UIImage(contentsOfFile: path)
+    }
+    func gethPathForImage(name: String) -> URL? {
+        guard
+            let path = FileManager
+                .default
+                .urls(for: .cachesDirectory, in: .userDomainMask)
+                .first?
+                .appendingPathComponent("\(name).jpeg") else {
+            print("Error getting path")
+            return nil
+        }
+        return path
     }
 }
 
@@ -48,12 +60,18 @@ class FileManagerViewModel: ObservableObject {
     let manager = LocalFileManager.instance
     
     init() {
-        getImageFromAssetsFolder()
+      //  getImageFromAssetsFolder()
+        getImageFromFileManager()
     }
     
     func getImageFromAssetsFolder() {
        image = UIImage(named: imageName)
     }
+    
+    func getImageFromFileManager() {
+        image = manager.getImage(name: imageName)
+    }
+    
     func saveImage() {
         guard let image = image else {return}
         manager.saveImage(image: image, name: imageName)
