@@ -34,6 +34,8 @@
 		19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */; };
 		19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */; };
 		19CB7A252CA5D28800590F57 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CB7A242CA5D28800590F57 /* ImageLoadingViewModel.swift */; };
+		19CB7A272CA5DD8E00590F57 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CB7A262CA5DD8E00590F57 /* PhotoModelCacheManager.swift */; };
+		19CB7A292CA5DFBE00590F57 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CB7A282CA5DFBE00590F57 /* PhotoModelFileManager.swift */; };
 		19E879E82C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879E72C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift */; };
 		19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879E92C6BC23E000CDA4A /* ContentView.swift */; };
 		19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E879EB2C6BC23E000CDA4A /* Item.swift */; };
@@ -79,6 +81,8 @@
 		19AB77E42C7DB6BE00E70B53 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		19AB77E72C7DBDD200E70B53 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		19CB7A242CA5D28800590F57 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		19CB7A262CA5DD8E00590F57 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		19CB7A282CA5DFBE00590F57 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 		19E879E42C6BC23E000CDA4A /* SwiftfulThinkingContinue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E879E72C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinueApp.swift; sourceTree = "<group>"; };
 		19E879E92C6BC23E000CDA4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				191A7EDB2CA175CD0018221B /* PhotoModelDataService.swift */,
+				19CB7A262CA5DD8E00590F57 /* PhotoModelCacheManager.swift */,
+				19CB7A282CA5DFBE00590F57 /* PhotoModelFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */,
 				19EDCA892C8DC7A60092C913 /* DownloadWithCombine.swift in Sources */,
 				191A7EDA2CA164DC0018221B /* DownloadingImagesViewsModel.swift in Sources */,
+				19CB7A292CA5DFBE00590F57 /* PhotoModelFileManager.swift in Sources */,
 				1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */,
 				191A7EDE2CA5CC7B0018221B /* DownloadingImagesRow.swift in Sources */,
 				1958A7AA2C99D4A60034F1B7 /* CacheBootcamp.swift in Sources */,
@@ -314,6 +321,7 @@
 				196AAA662C917EFB0097FCED /* FileManagerBootcamp.swift in Sources */,
 				1924A6282C7647670005C216 /* MaskBootcamp.swift in Sources */,
 				19AB77E52C7DB6BF00E70B53 /* CoreDataBootcamp.swift in Sources */,
+				19CB7A272CA5DD8E00590F57 /* PhotoModelCacheManager.swift in Sources */,
 				19E879EA2C6BC23E000CDA4A /* ContentView.swift in Sources */,
 				19E879EC2C6BC23E000CDA4A /* Item.swift in Sources */,
 				1924A6222C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift in Sources */,
