@@ -5,6 +5,8 @@
 //  Created by Grzegorz Mzyk on 01/09/2024.
 //
 
+// From GPT:  DispatchQueue w języku Swift to klasa należąca do frameworka Grand Central Dispatch (GCD), która zarządza kolejkami zadań (queues) i pozwala na asynchroniczne lub synchroniczne wykonywanie kodu w różnych wątkach. GCD jest technologią Apple służącą do efektywnego zarządzania współbieżnością (ang. concurrency) w aplikacjach, co pozwala na wykonywanie wielu zadań równocześnie, nie blokując głównego wątku (zwłaszcza interfejsu użytkownika).
+
 import SwiftUI
 
 class BackgroundThreadViewModel: ObservableObject {
