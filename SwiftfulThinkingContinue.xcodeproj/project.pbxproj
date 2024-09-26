@@ -11,6 +11,8 @@
 		191A7ED82CA1639F0018221B /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A7ED72CA1639F0018221B /* PhotoModel.swift */; };
 		191A7EDA2CA164DC0018221B /* DownloadingImagesViewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A7ED92CA164DC0018221B /* DownloadingImagesViewsModel.swift */; };
 		191A7EDC2CA175CD0018221B /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A7EDB2CA175CD0018221B /* PhotoModelDataService.swift */; };
+		191A7EDE2CA5CC7B0018221B /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A7EDD2CA5CC7B0018221B /* DownloadingImagesRow.swift */; };
+		191A7EE02CA5CDB30018221B /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191A7EDF2CA5CDB30018221B /* DownloadingImageView.swift */; };
 		1924A6202C75E9DE0005C216 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A61F2C75E9DE0005C216 /* DragGestureBootcamp2.swift */; };
 		1924A6222C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6212C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift */; };
 		1924A6242C760D690005C216 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6232C760D690005C216 /* GeometryReaderBootcamp.swift */; };
@@ -53,6 +55,8 @@
 		191A7ED72CA1639F0018221B /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		191A7ED92CA164DC0018221B /* DownloadingImagesViewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewsModel.swift; sourceTree = "<group>"; };
 		191A7EDB2CA175CD0018221B /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		191A7EDD2CA5CC7B0018221B /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		191A7EDF2CA5CDB30018221B /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		1924A61F2C75E9DE0005C216 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		1924A6212C75F3CF0005C216 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		1924A6232C760D690005C216 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				191A7ED52CA15DF10018221B /* DownlodingImagesBootcamp.swift */,
+				191A7EDD2CA5CC7B0018221B /* DownloadingImagesRow.swift */,
+				191A7EDF2CA5CDB30018221B /* DownloadingImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 				19EDCA892C8DC7A60092C913 /* DownloadWithCombine.swift in Sources */,
 				191A7EDA2CA164DC0018221B /* DownloadingImagesViewsModel.swift in Sources */,
 				1943191B2C7775570012D8FA /* HashableBootcamp.swift in Sources */,
+				191A7EDE2CA5CC7B0018221B /* DownloadingImagesRow.swift in Sources */,
 				1958A7AA2C99D4A60034F1B7 /* CacheBootcamp.swift in Sources */,
 				191A7EDC2CA175CD0018221B /* PhotoModelDataService.swift in Sources */,
 				1924A6202C75E9DE0005C216 /* DragGestureBootcamp2.swift in Sources */,
@@ -325,6 +332,7 @@
 				19EDCA8B2C8E1F910092C913 /* TimerBootcamp.swift in Sources */,
 				19F79BD92C831ACB000516EE /* CoreDataRelationshipsBootcamp.swift in Sources */,
 				191A7ED82CA1639F0018221B /* PhotoModel.swift in Sources */,
+				191A7EE02CA5CDB30018221B /* DownloadingImageView.swift in Sources */,
 				19E879E82C6BC23E000CDA4A /* SwiftfulThinkingContinueApp.swift in Sources */,
 				19E879FE2C748F8F000CDA4A /* DragGesture.swift in Sources */,
 			);

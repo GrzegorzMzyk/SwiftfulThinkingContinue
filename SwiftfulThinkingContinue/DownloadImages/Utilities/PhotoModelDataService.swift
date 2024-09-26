@@ -13,7 +13,7 @@ class PhotoModelDataService {
     @Published var photoModels: [PhotoModel] = []
     var cancellables = Set<AnyCancellable>()
     private init() {
-        
+        downloadData()
     }
     
     func downloadData() {
