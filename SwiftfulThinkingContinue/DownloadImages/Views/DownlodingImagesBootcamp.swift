@@ -21,18 +21,7 @@ struct DownlodingImagesBootcamp: View {
         NavigationStack {
             List {
                 ForEach(divm.dataArray) { model in
-                    HStack {
-                        Circle()
-                            .frame(width: 75, height: 75)
-                        VStack(alignment: .leading) {
-                            Text(model.title)
-                                .font(.headline)
-                            Text(model.url)
-                                .foregroundStyle(Color.gray)
-                                .italic()
-                        }
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    }
+                    DownloadingImagesRow(model: model)
                 }
                 
             }
