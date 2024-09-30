@@ -25,7 +25,7 @@ struct SwiftfulThinkingContinueApp: App {
 
     var body: some Scene {
         WindowGroup {
-            DownlodingImagesBootcamp()
+            AccessibilityVoiceOverBootcamp()
         }
         .modelContainer(sharedModelContainer)
     }
