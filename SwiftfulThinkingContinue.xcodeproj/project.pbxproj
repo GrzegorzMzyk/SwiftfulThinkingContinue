@@ -19,6 +19,7 @@
 		1924A6262C763B1E0005C216 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6252C763B1E0005C216 /* MultipleSheetsBootcamp.swift */; };
 		1924A6282C7647670005C216 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924A6272C7647670005C216 /* MaskBootcamp.swift */; };
 		192602B42CAB10D600C6B97B /* VisualEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192602B32CAB10D600C6B97B /* VisualEffectBootcamp.swift */; };
+		192602B62CAB17FD00C6B97B /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192602B52CAB17FD00C6B97B /* ScrollViewPagingBootcamp.swift */; };
 		193E0F702CA7ADD400CDCE8F /* AccessibilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E0F6F2CA7ADD400CDCE8F /* AccessibilityTextBootcamp.swift */; };
 		194319102C772A050012D8FA /* SoundBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943190F2C772A050012D8FA /* SoundBootcamp.swift */; };
 		194319142C772DEF0012D8FA /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 194319122C772DEF0012D8FA /* tada.mp3 */; };
@@ -71,6 +72,7 @@
 		1924A6252C763B1E0005C216 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		1924A6272C7647670005C216 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		192602B32CAB10D600C6B97B /* VisualEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBootcamp.swift; sourceTree = "<group>"; };
+		192602B52CAB17FD00C6B97B /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		193E0F6F2CA7ADD400CDCE8F /* AccessibilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBootcamp.swift; sourceTree = "<group>"; };
 		1943190F2C772A050012D8FA /* SoundBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBootcamp.swift; sourceTree = "<group>"; };
 		194319122C772DEF0012D8FA /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				1985949D2CAAACCB0041B2BF /* AccessibilityVoiceOverBootcamp.swift */,
 				1985949F2CAABD9E0041B2BF /* AlignmentGuideBootcamp.swift */,
 				192602B32CAB10D600C6B97B /* VisualEffectBootcamp.swift */,
+				192602B52CAB17FD00C6B97B /* ScrollViewPagingBootcamp.swift */,
 				191A7ED02CA15D550018221B /* DownloadImages */,
 				19F79BDA2C83220A000516EE /* CoreDataContainer.xcdatamodeld */,
 				19AB77E62C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld */,
@@ -324,6 +327,7 @@
 			files = (
 				19A4CAC72C87688E007C4F3B /* EscapingBootcamp.swift in Sources */,
 				19AB77E82C7DBDD200E70B53 /* FruitsContainer.xcdatamodeld in Sources */,
+				192602B62CAB17FD00C6B97B /* ScrollViewPagingBootcamp.swift in Sources */,
 				19EDCA892C8DC7A60092C913 /* DownloadWithCombine.swift in Sources */,
 				191A7EDA2CA164DC0018221B /* DownloadingImagesViewsModel.swift in Sources */,
 				19CB7A292CA5DFBE00590F57 /* PhotoModelFileManager.swift in Sources */,
